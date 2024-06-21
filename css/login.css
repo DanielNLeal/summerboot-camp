@@ -1,13 +1,160 @@
-.login-page {
+.main {
   display: flex;
+  margin: 32px;
+  font-family: Arial, sans-serif;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-left {
+  padding: 46px 142px;
+}
+
+.main-right img {
+  width: 672px;
+  height: 900px;
+}
+
+.form {
+  margin-top: 48px;
+  max-width: 388px;
+}
+
+.form a {
+  margin-left: 66%;
+  color: #243aff;
+}
+
+.form a:hover {
+  margin-left: 66%;
+  color: #0012b1;
+}
+
+.txt-p-login {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.btn-login {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  width: 388px;
+  height: 52px;
+  border-radius: 12px;
+  margin-top: 24px;
+  font-size: 16px;
+  margin-bottom: 48px;
+}
+
+#box-email {
+  width: 388px;
+  height: 48px;
+  border-radius: 12px;
+  border: 1px solid #d4d7e3;
+  background-color: #f7fbff;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+#box-pass {
+  width: 388px;
+  height: 48px;
+  border-radius: 12px;
+  border: 1px solid #d4d7e3;
+  background-color: #f7fbff;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.google-btn-login {
+  width: 388px;
+  height: 48px;
+  border-radius: 12px;
+  background-color: #f3f9fa;
+  border: 0;
+}
+
+.social-btn-login {
+  display: flex;
+  width: 388px;
+  height: 48px;
+  border-radius: 12px;
+  background-color: #f3f9fa;
+  border: 0;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.social-btn-login svg {
+  width: 28px;
+  height: 28px;
+}
+
+.divider p {
+  text-align: center;
+  margin-bottom: 34px;
+}
+
+.flex-collum {
   flex-direction: column;
 }
 
-.login-topo {
+.last-txt {
+  margin-top: 48px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  max-width: 388px;
 }
 
-.login-img {
-  width: 670px;
-  height: 835px;
-  border-radius: 24px;
+.last-txt a {
+  margin-top: 36px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: 0.01em;
+  color: #243aff;
+}
+
+.last-txt a:hover {
+  margin-top: 48px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: 0.01em;
+  color: #0012b1;
+  transition: 0.5s;
+}
+
+.line-or-1 {
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.233);
+  width: 170px;
+  display: flex;
+  position: relative;
+  margin-bottom: -23px;
+  margin-top: 23px;
+}
+
+.line-or-2 {
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.233);
+  width: 170px;
+  display: flex;
+  position: relative;
+  margin-left: 220px;
+  margin-top: -46px;
+  margin-bottom: 46px;
 }
