@@ -91,3 +91,81 @@ p {
   max-width: 388px;
   cursor: pointer;
 }
+
+.content-right {
+  max-width: 672px;
+  max-height: 836px;
+}
+
+.content-right img {
+  border-radius: 24px;
+  width: 672px;
+  height: 836px;
+}
+
+/* Art */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 672px;
+height: 836px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+/* Art */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 672px;
+height: 836px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+/* Art */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 672px;
+height: 836px;
+
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+/* Login Art  */
+
+width: 672px;
+height: 836px;
+
+background: url(.jpg);
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
