@@ -1,3 +1,5 @@
+/* FONT SIZES */
+
 .font-36px {
   font-size: 36px;
 }
@@ -10,6 +12,30 @@
   font-size: 16px;
 }
 
+/* FONT WEIGHTS */
+
 .font-w400 {
   font-weight: 400;
+}
+
+/* TEXT COLORS */
+
+.color-black {
+  color: #0c1421;
+}
+
+.color-grey {
+  color: #313957;
+}
+
+.color-light-grey {
+  color: #294957;
+}
+
+.color-lighter-grey {
+  color: #8897ad;
+}
+
+.color-white {
+  color: #fff;
 }

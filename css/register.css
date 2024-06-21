@@ -1,9 +1,93 @@
 .main {
+  margin: 32px auto;
   display: flex;
-  margin: 32px;
-  font-family: Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
 }
 
-.main-left {
+.content {
+  display: flex;
+  font-family: Arial, sans-serif;
+  gap: 32px;
+}
+
+.content-left {
   padding: 46px 142px;
+  max-width: 672px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.text h1,
+p {
+  margin: 0;
+  max-width: 427px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 388px;
+  gap: 24px;
+}
+
+.form input {
+  background-color: #f7fbff;
+  border: 1px solid #d4d7e3;
+  border-radius: 12px;
+  margin-top: 8px;
+  padding: 15px 0 15px 15px;
+  max-width: 373px;
+  width: 373px;
+}
+
+.form-btn {
+  background-color: #101010;
+  border: none;
+  padding: 16px 0;
+  border-radius: 12px;
+  width: 388px;
+  cursor: pointer;
+}
+
+.divider {
+  display: flex;
+  max-width: 388px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line {
+  content: " ";
+  border: 1px solid #cfdfe2;
+  max-width: 169px;
+  width: 169px;
+  height: 0;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.social-btn {
+  border: none;
+  padding: 12px 9px;
+  background-color: #f3f9fa;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  max-width: 388px;
+  cursor: pointer;
 }
