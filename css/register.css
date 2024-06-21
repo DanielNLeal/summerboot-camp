@@ -1,0 +1,9 @@
+.main {
+  display: flex;
+  margin: 32px;
+  font-family: Arial, sans-serif;
+}
+
+.main-left {
+  padding: 46px 142px;
+}
