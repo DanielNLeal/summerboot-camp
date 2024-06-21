@@ -12,6 +12,10 @@
   font-size: 16px;
 }
 
+.font-14px {
+  font-size: 14px;
+}
+
 /* FONT WEIGHTS */
 
 .font-w400 {
@@ -24,12 +28,16 @@
   color: #0c1421;
 }
 
-.color-grey {
+.color-dark-grey {
   color: #313957;
 }
 
-.color-light-grey {
+.color-grey {
   color: #294957;
+}
+
+.color-light-grey {
+  color: #959cb6;
 }
 
 .color-lighter-grey {

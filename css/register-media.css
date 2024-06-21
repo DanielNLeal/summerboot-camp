@@ -1,0 +1,76 @@
+@media (max-width: 390px) {
+  .main {
+    margin: 24px;
+  }
+
+  .content {
+    flex-direction: column-reverse;
+    gap: 27px;
+  }
+
+  .content-left {
+    padding: 0;
+    gap: 24px;
+  }
+
+  .text {
+    gap: 16px;
+  }
+
+  .text h1 {
+    font-size: 24px;
+  }
+
+  .text p {
+    font-size: 15px;
+  }
+
+  .form label {
+    font-size: 14px;
+  }
+
+  .form input {
+    max-width: 325px;
+    font-size: 14px;
+  }
+
+  input::placeholder {
+    font-size: 14px;
+  }
+
+  .form-btn {
+    font-size: 16px;
+  }
+
+  .divider {
+    margin-top: 8px;
+  }
+
+  .line {
+    max-width: 110px;
+  }
+
+  .socials {
+    flex-direction: row;
+  }
+
+  .social-btn {
+    padding: 8px 9px;
+    width: 100%;
+  }
+
+  .mobile-block {
+    display: block;
+  }
+
+  .desktop-block {
+    display: none;
+  }
+
+  .content-right img {
+    max-width: 342px;
+    max-height: 180px;
+    width: 100%;
+    height: 100%;
+  }
+}
