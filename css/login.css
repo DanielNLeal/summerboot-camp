@@ -80,6 +80,10 @@ a {
   border: 0;
 }
 
+.mobile {
+  display: none;
+}
+
 .social-btn-login {
   display: flex;
   width: 388px;
