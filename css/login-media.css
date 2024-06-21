@@ -1,0 +1,75 @@
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .main-left {
+    padding: 24px;
+  }
+
+  .main-right img {
+    width: 100%;
+    height: auto;
+  }
+
+  .form {
+    margin-top: 24px;
+    max-width: 100%;
+  }
+
+  .btn-login,
+  #box-email,
+  #box-pass,
+  .social-btn-login {
+    width: 100%;
+  }
+
+  .social-btn-login {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .form a {
+    margin-left: 50%;
+  }
+
+  .divider p {
+    margin-bottom: 24px;
+  }
+
+  .line-or-1,
+  .line-or-2 {
+    width: 40%;
+    margin: 0;
+  }
+
+  .line-or-1 {
+    margin-bottom: -7%;
+    margin-top: 7%;
+  }
+
+  .line-or-2 {
+    margin-left: 60%;
+    margin-top: -9%;
+    margin-bottom: 9%;
+  }
+
+  .last-txt {
+    margin-top: 24px;
+    font-size: 16px;
+  }
+
+  .last-txt a {
+    font-size: 16px;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+}
