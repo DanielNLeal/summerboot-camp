@@ -1,3 +1,5 @@
+/* FONT SIZES */
+
 .font-36px {
   font-size: 36px;
 }
@@ -10,28 +12,14 @@
   font-size: 16px;
 }
 
+.font-14px {
+  font-size: 14px;
+}
+
+/* FONT WEIGHTS */
+
 .font-w400 {
   font-weight: 400;
 }
 
-.flex {
-  display: flex;
-}
-
-.column {
-  flex-direction: column;
-}
-
-.hover-btn:hover {
-  transition: 0.3s;
-  cursor: pointer;
-  background-color: rgb(32, 32, 32);
-}
-
-.hover-social:hover {
-  transform: scale(1.1);
-  transition: 0.5s;
-  cursor: pointer;
-  border: 0.1px solid black;
-  background-color: #e9f3ff;
 }
