@@ -1,0 +1,13 @@
+.login-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-topo {
+}
+
+.login-img {
+  width: 670px;
+  height: 835px;
+  border-radius: 24px;
+}
