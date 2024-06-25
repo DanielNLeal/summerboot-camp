@@ -1,0 +1,68 @@
+html {
+  background-color: #e4e8f1;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.bola-menu {
+  height: 22px;
+  background-color: red;
+  width: 22px;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: -70%;
+  margin-left: 40%;
+  margin-bottom: 70%;
+}
+
+.p-4 {
+  color: white;
+  text-align: center;
+  padding-top: 4px;
+}
+
+.email-sama {
+  margin-top: -1%;
+}
+
+.img-sama {
+  border-radius: 12px;
+}
+
+.menu {
+  margin-left: 5%;
+  margin-top: 5%;
+  max-width: 144px;
+}
+
+.nav-coluna {
+  width: 200px;
+  margin-top: 5%;
+}
+
+.nav-coluna ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-coluna li {
+  margin: 10px 0;
+}
+
+.nav-coluna a {
+  text-decoration: none;
+  color: #585858;
+  display: block;
+  transition: background-color 0.3s;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 32px;
+}
+
+.nav-coluna a:hover {
+  color: black;
+}
