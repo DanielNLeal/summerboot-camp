@@ -11,6 +11,20 @@ body {
   margin-left: -15%;
 }
 
+.main {
+  display: flex;
+}
+
+.p-4 {
+  color: white;
+  text-align: center;
+  padding-top: 4px;
+}
+
+.email-sama {
+  margin-top: -10%;
+}
+
 .img-sama {
   border-radius: 12px;
 }
@@ -48,4 +62,19 @@ body {
 
 .nav-coluna a:hover {
   color: black;
+}
+
+.main-page {
+  background-color: white;
+  margin-left: 10%;
+  margin-top: 1%;
+  margin-bottom: -4%;
+  border-radius: 30px;
+}
+
+.tit-mmain-page {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 60px;
+  margin-left: 60px;
 }
