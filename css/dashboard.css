@@ -1,0 +1,45 @@
+html {
+  background-color: #e4e8f1;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.img-sama {
+  border-radius: 12px;
+}
+
+.menu {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.nav-coluna {
+  width: 200px;
+  padding: 20px;
+  margin-top: 5%;
+}
+
+.nav-coluna ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-coluna li {
+  margin: 10px 0;
+}
+
+.nav-coluna a {
+  text-decoration: none;
+  color: #262626;
+  display: block;
+  transition: background-color 0.3s;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.nav-coluna a:hover {
+  background-color: #bbb;
+}
