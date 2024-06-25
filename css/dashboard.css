@@ -1,0 +1,49 @@
+.main-page {
+  font-family: "Poppins", sans-serif;
+}
+
+.main-right {
+  max-width: 250px;
+  width: 100%;
+  background-color: #f9fafc;
+  border-radius: 30px;
+  padding: 76px 50px 60px 50px;
+}
+
+.slider-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider {
+  position: relative;
+}
+
+.slider-grey {
+  width: 100%;
+  border: 2.5px solid #eceff5;
+  border-radius: 30px;
+}
+
+.slider-green {
+  border: 2.5px solid #31ba96;
+  position: absolute;
+  top: 0;
+  border-radius: 30px;
+}
+
+.slider-1 {
+  width: 28%;
+}
+.slider-2 {
+  width: 44%;
+}
+.slider-3 {
+  width: 36%;
+}
+.slider-4 {
+  width: 24%;
+}
+.slider-5 {
+  width: 36%;
+}
