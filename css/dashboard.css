@@ -6,9 +6,19 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.notifications {
-  margin-bottom: 40%;
-  margin-left: -15%;
+.user-details {
+  position: relative;
+  width: 72px;
+  height: 72px;
+}
+.user-details .img-notifications {
+  position: absolute;
+  top: -14px;
+  right: -14px;
+}
+
+.user-details .img-user {
+  border-radius: 12px;
 }
 
 .main {
@@ -23,10 +33,6 @@ body {
 
 .email-sama {
   margin-top: -10%;
-}
-
-.img-sama {
-  border-radius: 12px;
 }
 
 .menu {
