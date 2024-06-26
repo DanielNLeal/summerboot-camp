@@ -6,7 +6,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-<<<<<<< Dashboard-page-Afonso
 .user-details {
   position: relative;
   width: 72px;
@@ -24,8 +23,7 @@ body {
 
 .main {
   display: flex;
-=======
-/* MAIN RIGHT */
+}
 
 .main-right {
   max-width: 250px;
@@ -36,7 +34,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 101px;
->>>>>>> main
 }
 
 .money-slider {
@@ -45,10 +42,17 @@ body {
   gap: 30px;
 }
 
-<<<<<<< Dashboard-page-Afonso
 .email-sama {
   margin-top: -10%;
-=======
+}
+
+.money-slider h3 {
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: 0.33px;
+  color: #262a41;
+}
+
 .money-slider h3 {
   margin: 0;
   font-weight: 700;
@@ -63,21 +67,55 @@ body {
   font-weight: 500;
   font-size: 13px;
   letter-spacing: 0.33px;
->>>>>>> main
+}
+
+nav ul {
+  list-style: none;
+  margin-left: -40px;
+}
+
+nav ul li {
+  padding-top: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #555555;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav-coluna {
+  width: 200px;
+  margin-top: 65%;
+  font-size: 25px;
+}
+
+.slider {
+  position: relative;
+}
+
+.menu {
+  margin-left: 5%;
+  margin-top: 5%;
+  max-width: 144px;
 }
 
 .slider-text p {
   margin-bottom: 8px;
 }
 
-<<<<<<< Dashboard-page-Afonso
 .nav-coluna {
   width: 200px;
   margin-top: 65%;
-=======
+}
+
 .slider {
   position: relative;
->>>>>>> main
 }
 
 .slider-grey {
@@ -139,19 +177,4 @@ body {
   font-weight: 600;
   padding: 13px 60px;
   letter-spacing: 1.5px;
-}
-
-.main-page {
-  background-color: white;
-  margin-left: 10%;
-  margin-top: 1%;
-  margin-bottom: -4%;
-  border-radius: 30px;
-}
-
-.tit-mmain-page {
-  font-size: 40px;
-  font-weight: 600;
-  margin-top: 60px;
-  margin-left: 60px;
 }
