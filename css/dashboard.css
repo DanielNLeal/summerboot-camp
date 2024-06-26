@@ -3,66 +3,109 @@ html {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.bola-menu {
-  height: 22px;
-  background-color: red;
-  width: 22px;
-  border-radius: 50%;
-  font-size: 14px;
-  font-weight: 600;
-  margin-top: -70%;
-  margin-left: 40%;
-  margin-bottom: 70%;
+/* MAIN RIGHT */
+
+.main-right {
+  max-width: 250px;
+  width: 100%;
+  background-color: #f9fafc;
+  border-radius: 30px;
+  padding: 76px 50px 60px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 101px;
 }
 
-.p-4 {
-  color: white;
-  text-align: center;
-  padding-top: 4px;
+.money-slider {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
-.email-sama {
-  margin-top: -1%;
-}
-
-.img-sama {
-  border-radius: 12px;
-}
-
-.menu {
-  margin-left: 5%;
-  margin-top: 5%;
-  max-width: 144px;
-}
-
-.nav-coluna {
-  width: 200px;
-  margin-top: 5%;
-}
-
-.nav-coluna ul {
-  list-style-type: none;
-  padding: 0;
+.money-slider h3 {
   margin: 0;
+  font-weight: 700;
+  letter-spacing: 0.33px;
+  color: #262a41;
 }
 
-.nav-coluna li {
-  margin: 10px 0;
+.slider-text {
+  display: flex;
+  justify-content: space-between;
+  color: #273240;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.33px;
 }
 
-.nav-coluna a {
-  text-decoration: none;
-  color: #585858;
-  display: block;
-  transition: background-color 0.3s;
-  font-size: 25px;
+.slider-text p {
+  margin-bottom: 8px;
+}
+
+.slider {
+  position: relative;
+}
+
+.slider-grey {
+  width: 100%;
+  border: 2.5px solid #eceff5;
+  border-radius: 30px;
+}
+
+.slider-green {
+  border: 2.5px solid #31ba96;
+  position: absolute;
+  top: 0;
+  border-radius: 30px;
+}
+
+.slider-1 {
+  width: 28%;
+}
+.slider-2 {
+  width: 44%;
+}
+.slider-3 {
+  width: 36%;
+}
+.slider-4 {
+  width: 24%;
+}
+.slider-5 {
+  width: 36%;
+}
+
+.tips {
+  background-color: #edf0f6;
+  border-radius: 30px;
+  padding: 25px;
+}
+
+.tips h4 {
+  color: #273240;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 14px;
+  letter-spacing: 0.34px;
+}
+
+.tips p {
+  color: #404852;
+  font-size: 12px;
+  margin-bottom: 21px;
+  letter-spacing: 0.43px;
+}
+
+.btn-tips {
+  background-color: #000;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 13px;
   font-weight: 600;
-  margin-top: 32px;
-}
-
-.nav-coluna a:hover {
-  color: black;
+  padding: 13px 60px;
+  letter-spacing: 1.5px;
 }
