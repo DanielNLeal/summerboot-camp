@@ -25,14 +25,44 @@ body {
   display: flex;
 }
 
-.p-4 {
-  color: white;
-  text-align: center;
-  padding-top: 4px;
+.main-right {
+  max-width: 250px;
+  width: 100%;
+  background-color: #f9fafc;
+  border-radius: 30px;
+  padding: 76px 50px 60px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 101px;
 }
 
 .email-sama {
   margin-top: -10%;
+}
+
+.money-slider h3 {
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: 0.33px;
+  color: #262a41;
+}
+
+.slider-text {
+  display: flex;
+  justify-content: space-between;
+  color: #273240;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.33px;
+}
+
+.nav-coluna {
+  width: 200px;
+  margin-top: 65%;
+}
+
+.slider {
+  position: relative;
 }
 
 .menu {
@@ -68,19 +98,4 @@ body {
 
 .nav-coluna a:hover {
   color: black;
-}
-
-.main-page {
-  background-color: white;
-  margin-left: 10%;
-  margin-top: 1%;
-  margin-bottom: -4%;
-  border-radius: 30px;
-}
-
-.tit-mmain-page {
-  font-size: 40px;
-  font-weight: 600;
-  margin-top: 60px;
-  margin-left: 60px;
 }
